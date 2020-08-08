@@ -13,6 +13,7 @@ stages:
         pool:
           vmimage: windows-latest
         steps:
+          Settings
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
